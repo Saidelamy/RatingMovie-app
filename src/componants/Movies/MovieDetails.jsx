@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Loader from "../Loader/Loader";
 import StarRating from "../../StarRating/StarRating";
 import { useKey } from "../../hooks/useKey";
-const KEY = "f84fc31d";
+const KEY = "689b38f8";
 export default function MovieDetails({
   selectedId,
   onCloseMovie,
