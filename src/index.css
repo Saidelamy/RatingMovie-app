@@ -347,15 +347,24 @@ body {
 }
 
 @media screen and (max-width: 667px) and (min-width: 300px) {
+  .nav-bar {
+    padding: 0 1.2rem;
+  }
+  .logo {
+    margin-right: 15px;
+  }
   .logo h1 {
-    font-size: 1.3rem;
+    display: none;
+  }
+  .logo span {
+    font-size: 4rem;
   }
   .search {
-    width: 18rem;
-    font-size: 1.2rem;
+    width: 27rem;
+    font-size: 1.5rem;
   }
   .num-results {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .main {
     display: grid;
