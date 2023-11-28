@@ -121,7 +121,7 @@ body {
 }
 
 .num-results {
-  justify-self: end;
+  justify-self: center;
   font-size: 1.8rem;
 }
 
@@ -216,7 +216,8 @@ body {
 
 /* ******* */
 
-.summary {
+.summary,
+.num-results {
   padding: 2.2rem 3.2rem 1.8rem 3.2rem;
   border-radius: 0.9rem;
   background-color: var(--color-background-100);
