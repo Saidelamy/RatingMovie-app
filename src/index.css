@@ -347,10 +347,10 @@ body {
 
 @media screen and (max-width: 667px) and (min-width: 300px) {
   .logo h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .search {
-    width: 23rem;
+    width: 18rem;
     font-size: 1.2rem;
   }
   .num-results {
