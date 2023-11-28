@@ -40,10 +40,6 @@ export default function MovieDetails({
     Genre: genre,
   } = movie;
 
-  // const [avgRating, setAvgRating] = useState(0);
-
-  console.log(runtime);
-
   function handleAdd() {
     const newWatchedMovie = {
       imdbID: selectedId,
@@ -58,9 +54,6 @@ export default function MovieDetails({
 
     onAddWatched(newWatchedMovie);
     onCloseMovie();
-
-    // setAvgRating(Number(imdbRating));
-    // setAvgRating((avgRating) => (avgRating + userRating) / 2);
   }
 
   useKey("Escape", onCloseMovie);
@@ -87,7 +80,7 @@ export default function MovieDetails({
       document.title = `Movie | ${title}`;
 
       return function () {
-        document.title = "usePopcorn";
+        document.title = "Rating Fun";
         // console.log(`Clean up effect for movie ${title}`);
       };
     },
